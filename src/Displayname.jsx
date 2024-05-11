@@ -20,8 +20,9 @@ function Displayname() {
 
   return (
     <div>
-      <h1>Full Name Display</h1>
+      
       <form onSubmit={handleSubmit}>
+      <h1>Full Name Display</h1>
         <label htmlFor="firstName">
           First Name:
           <input
