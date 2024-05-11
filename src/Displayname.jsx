@@ -21,7 +21,8 @@ function Displayname() {
   return (
     <div>
       
-      <form onSubmit={handleSubmit}>
+      <form>
+        <div onSubmit={handleSubmit}> 
       <h1>Full Name Display</h1>
         <label htmlFor="firstName">
           First Name:
@@ -44,6 +45,7 @@ function Displayname() {
         <br />
 
         <button type="submit"> Submit </button> 
+        </div>
       </form>
 
       {fullName && <h2>Full Name: {fullName}</h2>}
