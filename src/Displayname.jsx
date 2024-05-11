@@ -42,7 +42,7 @@ function Displayname() {
         </label>
         <br />
 
-        <button type="submit" disabled={firstName.trim() === "" || lastName.trim() === ""}> Submit </button> 
+        <button type="submit"> Submit </button> 
       </form>
 
       {fullName && <h2>Full Name: {fullName}</h2>}
