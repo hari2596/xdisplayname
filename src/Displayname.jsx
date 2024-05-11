@@ -13,8 +13,8 @@ function Displayname() {
     return;
   }
   setFullName(`${firstName} ${lastName}`);
-  setFirstName("");
-  setLastName("");
+  // setFirstName("");
+  // setLastName("");
 };
 
 
